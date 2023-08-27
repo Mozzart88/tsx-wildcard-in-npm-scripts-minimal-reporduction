@@ -1,0 +1,20 @@
+{
+	"name": "tsx-wildcard-in-npm-scripts-minimal-reporduction",
+	"main": "src/app.ts",
+	"author": "timokhovim@gmail.com",
+	"license": "ISC",
+	"private": false,
+	"directories": {
+		"test": "test"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.11",
+		"tsx": "^3.12.7",
+		"typescript": "^5.1.6"
+	},
+	"scripts": {
+		"start": "tsx --test test/**/*.ts"
+	},
+	"type": "module",
+	"version": "0.0.1"
+}
